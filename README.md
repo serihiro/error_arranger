@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/serihiro/error_arranger.svg?branch=master)](https://travis-ci.org/serihiro/error_arranger)
+
 # ErrorArranger
 
 Gem for Rails to enable arrange error object before rescue_from handles.
