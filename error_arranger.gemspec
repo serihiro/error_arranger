@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{You can arrange error object before rescue_from handles.}
   spec.description   = %q{You can arrange error object before rescue_from handles.}
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/serihiro/error_arranger'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
