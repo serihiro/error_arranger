@@ -1,10 +1,12 @@
 require 'spec_helper'
 
 describe ErrorArranger do
+  Request = Struct.new('Request',:env)
+
   class SuperMockController
 
     def request
-      @req ||= Struct.new('Request',:env).new({'action_dispatch.show_detailed_exceptions' => true})
+      @req ||= Request.new({'action_dispatch.show_detailed_exceptions' => true})
     end
 
     def rescue_with_handler(exception)
