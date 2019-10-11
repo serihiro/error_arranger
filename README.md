@@ -39,7 +39,7 @@ The method `arrange_exception!(exception)` will be called before rescue handlers
 
 ## dependencies
 
-* Rails '>= 4.0.0', '<5.0'
+* Rails '>= 5.2.0', '<6.0'
 
 ## Development
 
