@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/serihiro/error_arranger.svg?branch=master)](https://travis-ci.org/serihiro/error_arranger)
 [![Gem Version](https://badge.fury.io/rb/error_arranger.svg)](https://badge.fury.io/rb/error_arranger)
 
 # ErrorArranger
